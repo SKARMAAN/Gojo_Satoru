@@ -73,6 +73,7 @@ class Development:
     NO_LOAD = []
     GENIUS_API_TOKEN = "_SKHd_-xt05rO7pSt2Zvx4pL1_MoBOYWjOOPd-pQ1zinaHzmOYBajdVa_rrBKJgl"
     RMBG_API = "qjzqR82wn2BCkxUazpQ7vP5H"
+    AuDD_API = "02342fd5abeb2840f7ff0522a6d8c55f"
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = "Grab_Your_WH_Group"
     SUPPORT_CHANNEL = "WofBotsUpdates"
