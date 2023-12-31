@@ -40,9 +40,9 @@ class Config:
     GENIUS_API_TOKEN = config("GENIUS_API",default="_SKHd_-xt05rO7pSt2Zvx4pL1_MoBOYWjOOPd-pQ1zinaHzmOYBajdVa_rrBKJgl")
     AuDD_API = config("AuDD_API",default="02342fd5abeb2840f7ff0522a6d8c55f")
     RMBG_API = config("RMBG_API",default="qjzqR82wn2BCkxUazpQ7vP5H")
-    DB_URI = config("DB_URI", default="mongodb+srv://godgamer9434:vf3MXDyCAWT7I2S7@cluster0.yx21dk8.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = config("DB_URI", default="mongodb+srv://godgamer9434:tyWW0y2JPB0w7uDu@cluster0.hhmcouj.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = config("DB_NAME", default="godgamer9434")
-    BDB_URI = config("BDB_URI",default=None)
+    BDB_URI = config("BDB_URI",default="mongodb+srv://SKARMAAN:jAXllZggCqEN3eLe@cluster0.vlcmrpo.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="Grab_Your_WH_Group")
@@ -68,7 +68,7 @@ class Development:
     DEV_USERS = [5332414680]
     SUDO_USERS = [5191699870]
     WHITELIST_USERS = [1103636187]
-    DB_URI = "mongodb+srv://godgamer9434:vf3MXDyCAWT7I2S7@cluster0.yx21dk8.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_URI = "mongodb+srv://godgamer9434:tyWW0y2JPB0w7uDu@cluster0.hhmcouj.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
     DB_NAME = "godgamer9434"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "_SKHd_-xt05rO7pSt2Zvx4pL1_MoBOYWjOOPd-pQ1zinaHzmOYBajdVa_rrBKJgl"
