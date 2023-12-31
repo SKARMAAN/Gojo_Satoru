@@ -42,7 +42,7 @@ class Config:
     RMBG_API = config("RMBG_API",default="qjzqR82wn2BCkxUazpQ7vP5H")
     DB_URI = config("DB_URI", default="mongodb+srv://godgamer9434:tyWW0y2JPB0w7uDu@cluster0.hhmcouj.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = config("DB_NAME", default="godgamer9434")
-    BDB_URI = config("BDB_URI",default="mongodb+srv://SKARMAAN:jAXllZggCqEN3eLe@cluster0.vlcmrpo.mongodb.net/?retryWrites=true&w=majority")
+    BDB_URI = config("BDB_URI",default="mongodb+srv://Armaan:tTdI4C2FTHACLmVB@cluster0.ymwrzo1.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="Grab_Your_WH_Group")
@@ -79,5 +79,5 @@ class Development:
     SUPPORT_CHANNEL = "WofBotsUpdates"
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
-    BDB_URI = "mongodb+srv://SKARMAAN:jAXllZggCqEN3eLe@cluster0.vlcmrpo.mongodb.net/?retryWrites=true&w=majority"
+    BDB_URI = "mongodb+srv://Armaan:tTdI4C2FTHACLmVB@cluster0.ymwrzo1.mongodb.net/?retryWrites=true&w=majority"
     WORKERS = 8
