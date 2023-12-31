@@ -15,26 +15,26 @@ class Config:
     API_ID = int(config("API_ID", default="29098103"))
     API_HASH = config("API_HASH", default="06baef4020832888ccf3ebf4e746d52b")
     OWNER_ID = int(config("OWNER_ID", default=5332414680))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default="-1001932566732"))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001932566732))
     DEV_USERS = [
         int(i)
         for i in config(
             "DEV_USERS",
-            default="",
+            default="5332414680",
         ).split(" ")
     ]
     SUDO_USERS = [
         int(i)
         for i in config(
             "SUDO_USERS",
-            default="",
+            default="5191699870",
         ).split(" ")
     ]
     WHITELIST_USERS = [
         int(i)
         for i in config(
             "WHITELIST_USERS",
-            default="",
+            default="1103636187",
         ).split(" ")
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default="_SKHd_-xt05rO7pSt2Zvx4pL1_MoBOYWjOOPd-pQ1zinaHzmOYBajdVa_rrBKJgl")
@@ -66,8 +66,8 @@ class Development:
     OWNER_ID = 5332414680  # Your telegram user id defult to mine
     MESSAGE_DUMP = -1001932566732  # Your Private Group ID for logs
     DEV_USERS = [5332414680]
-    SUDO_USERS = []
-    WHITELIST_USERS = []
+    SUDO_USERS = [5191699870]
+    WHITELIST_USERS = [1103636187]
     DB_URI = "mongodb+srv://godgamer9434:vf3MXDyCAWT7I2S7@cluster0.yx21dk8.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
     DB_NAME = "godgamer9434"  # Your DB name
     NO_LOAD = []
